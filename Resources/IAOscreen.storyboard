@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="HIRESSplashScreeniPhone6.png" misplaced="YES">
+                                <rect key="frame" x="8" y="17" width="583" height="566"/>
+                                <constraints>
+                                    <constraint id="42" firstAttribute="width" constant="592"/>
+                                    <constraint id="43" firstAttribute="height" constant="591"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="48" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="4"/>
+                            <constraint id="49" firstItem="3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="hamburger.png" width="14" height="15"/>
+        <image name="contacts.png" width="24" height="24"/>
+        <image name="reminders.png" width="24" height="24"/>
+        <image name="todo.png" width="24" height="24"/>
+        <image name="PA1.png" width="1896" height="1368"/>
+        <image name="PA2.png" width="1896" height="1368"/>
+        <image name="PA3.png" width="1368" height="1896"/>
+        <image name="PA4.png" width="1368" height="1896"/>
+        <image name="PA5.png" width="1368" height="1896"/>
+        <image name="PA6.png" width="1896" height="1368"/>
+        <image name="PA7.png" width="1896" height="1368"/>
+        <image name="BW1.png" width="1896" height="1368"/>
+        <image name="BW2.png" width="1896" height="1368"/>
+        <image name="BW3.png" width="1896" height="1368"/>
+        <image name="BW4.png" width="1896" height="1368"/>
+        <image name="PA10.png" width="1368" height="1896"/>
+        <image name="PA11.png" width="1368" height="1896"/>
+        <image name="PA12.png" width="1368" height="1896"/>
+        <image name="PA8.png" width="1896" height="1368"/>
+        <image name="PA9.png" width="1896" height="1368"/>
+        <image name="PA13.png" width="1896" height="1368"/>
+        <image name="PA14.png" width="1896" height="1368"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/anatomy/anatomy1.PNG" width="939" height="542"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/common/error1.PNG" width="1026" height="478"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/common/error2.PNG" width="1018" height="475"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/criteria/criteria1.PNG" width="1046" height="438"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/ideal/ideal1.png" width="460" height="352"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/ideal/ideal2.png" width="460" height="352"/>
+        <image name="PA1.ideal1.png" width="460" height="352"/>
+        <image name="PA1.ideal2.png" width="460" height="352"/>
+        <image name="PA2.ideal1.png" width="460" height="352"/>
+        <image name="PA2.ideal2.png" width="460" height="352"/>
+        <image name="PA3.ideal1.png" width="279" height="365"/>
+        <image name="PA3.ideal2.png" width="279" height="365"/>
+        <image name="Acquisition.png" width="512" height="512"/>
+        <image name="Criteria.png" width="512" height="512"/>
+        <image name="Errors.png" width="512" height="512"/>
+        <image name="Home.png" width="512" height="512"/>
+        <image name="PA1.criteria.png" width="1046" height="438"/>
+        <image name="PA2.criteria.png" width="1044" height="380"/>
+        <image name="PA3.criteria.png" width="1034" height="508"/>
+        <image name="PA1.Anatomy.png" width="939" height="542"/>
+        <image name="PA2.Anatomy.png" width="976" height="557"/>
+        <image name="PA3.Anatomy.png" width="759" height="572"/>
+        <image name="HIRESSplashScreeniPhone6.png" width="60" height="60"/>
+        <image name="PA1.error1.png" width="1026" height="478"/>
+        <image name="PA2.error1.png" width="1021" height="477"/>
+        <image name="PA1.error2.png" width="1018" height="475"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/PA2.error1.png" width="1021" height="477"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/PA2.error2.png" width="1030" height="485"/>
+        <image name="PA3.error1.png" width="1025" height="480"/>
+        <image name="PA2.error2.png" width="1030" height="485"/>
+        <image name="black.png" width="644" height="514"/>
+        <image name="Logo-Title.png" width="353" height="327"/>
+    </resources>
+</document>

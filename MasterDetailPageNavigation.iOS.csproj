@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{3D54620E-23F2-462B-A824-B074D41BD507}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MasterDetailPageNavigation.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>MasterDetailPageNavigationiOS</AssemblyName>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.3.3.175\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.3.3.175\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS">
+      <HintPath>..\packages\Xamarin.Forms.2.3.3.175\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.3.3.175\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTouch.Dialog-1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MasterDetailPageNavigation\MasterDetailPageNavigation.csproj">
+      <Project>{9A1ED959-56BE-48DB-BD07-545B00242318}</Project>
+      <Name>MasterDetailPageNavigation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-60%403x.png" />
+    <BundleResource Include="Resources\Icon-Small%403x.png" />
+    <BundleResource Include="Resources\Icon-Small-40%403x.png" />
+    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\hamburger%402x.png" />
+    <BundleResource Include="Resources\contacts.png" />
+    <BundleResource Include="Resources\contacts%402x.png" />
+    <BundleResource Include="Resources\reminders.png" />
+    <BundleResource Include="Resources\reminders%402x.png" />
+    <BundleResource Include="Resources\todo.png" />
+    <BundleResource Include="Resources\todo%402x.png" />
+    <BundleResource Include="Resources\black.png" />
+    <BundleResource Include="Resources\IAO.splash.png" />
+    <BundleResource Include="Resources\Home\PA1.png" />
+    <BundleResource Include="Resources\Home\PA2.png" />
+    <BundleResource Include="Resources\Home\PA3.png" />
+    <BundleResource Include="Resources\Home\PA4.png" />
+    <BundleResource Include="Resources\Home\PA5.png" />
+    <BundleResource Include="Resources\Home\PA6.png" />
+    <BundleResource Include="Resources\Home\PA7.png" />
+    <BundleResource Include="Resources\Home\PA8.png" />
+    <BundleResource Include="Resources\Home\PA9.png" />
+    <BundleResource Include="Resources\Home\BW1.png" />
+    <BundleResource Include="Resources\Home\BW2.png" />
+    <BundleResource Include="Resources\Home\BW3.png" />
+    <BundleResource Include="Resources\Home\BW4.png" />
+    <BundleResource Include="Resources\Home\PA10.png" />
+    <BundleResource Include="Resources\Home\PA11.png" />
+    <BundleResource Include="Resources\Home\PA12.png" />
+    <BundleResource Include="Resources\Home\PA13.png" />
+    <BundleResource Include="Resources\Home\PA14.png" />
+    <BundleResource Include="Resources\PA1\ideal1.png" />
+    <BundleResource Include="Resources\PA1\ideal2.png" />
+    <BundleResource Include="Resources\PA1\criteria.png" />
+    <BundleResource Include="Resources\PA1\error1.png" />
+    <BundleResource Include="Resources\PA1\error2.png" />
+    <BundleResource Include="Resources\PA1\anatomy.png" />
+    <BundleResource Include="Resources\PA2\ideal1.png" />
+    <BundleResource Include="Resources\PA2\ideal2.png" />
+    <BundleResource Include="Resources\PA2\anatomy.png" />
+    <BundleResource Include="Resources\PA2\error1.png" />
+    <BundleResource Include="Resources\PA2\error2.png" />
+    <BundleResource Include="Resources\PA3\ideal1.png" />
+    <BundleResource Include="Resources\PA3\ideal2.png" />
+    <BundleResource Include="Resources\PA3\criteria.png" />
+    <BundleResource Include="Resources\PA2\criteria.png" />
+    <BundleResource Include="Resources\PA3\error1.png" />
+    <BundleResource Include="Resources\PA4\anatomy.png" />
+    <BundleResource Include="Resources\PA4\criteria.png" />
+    <BundleResource Include="Resources\PA4\error1.png" />
+    <BundleResource Include="Resources\PA4\error2.png" />
+    <BundleResource Include="Resources\PA5\anatomy.png" />
+    <BundleResource Include="Resources\PA5\criteria.png" />
+    <BundleResource Include="Resources\PA5\error1.png" />
+    <BundleResource Include="Resources\PA3\anatomy.png" />
+    <BundleResource Include="Resources\PA6\anatomy.png" />
+    <BundleResource Include="Resources\PA6\criteria.png" />
+    <BundleResource Include="Resources\PA6\error1.png" />
+    <BundleResource Include="Resources\PA6\error2.png" />
+    <BundleResource Include="Resources\PA6\ideal1.png" />
+    <BundleResource Include="Resources\PA6\ideal2.png" />
+    <BundleResource Include="Resources\PA7\ideal1.png" />
+    <BundleResource Include="Resources\PA7\ideal2.png" />
+    <BundleResource Include="Resources\PA7\anatomy.png" />
+    <BundleResource Include="Resources\PA7\error1.png" />
+    <BundleResource Include="Resources\PA7\error2.png" />
+    <BundleResource Include="Resources\PA7\criteria.png" />
+    <BundleResource Include="Resources\PA8\anatomy.png" />
+    <BundleResource Include="Resources\PA8\error1.png" />
+    <BundleResource Include="Resources\PA8\criteria.png" />
+    <BundleResource Include="Resources\PA8\ideal1.png" />
+    <BundleResource Include="Resources\PA8\ideal2.png" />
+    <BundleResource Include="Resources\Icon\Acquisition.png" />
+    <BundleResource Include="Resources\Icon\Anatomy.png" />
+    <BundleResource Include="Resources\Icon\Criteria.png" />
+    <BundleResource Include="Resources\Icon\Errors.png" />
+    <BundleResource Include="Resources\Icon\Home.png" />
+    <BundleResource Include="Resources\PA9\anatomy.png" />
+    <BundleResource Include="Resources\PA9\error1.png" />
+    <BundleResource Include="Resources\PA9\criteria.png" />
+    <BundleResource Include="Resources\PA9\ideal1.png" />
+    <BundleResource Include="Resources\PA9\ideal2.png" />
+    <BundleResource Include="Resources\PA10\anatomy.png" />
+    <BundleResource Include="Resources\PA10\error1.png" />
+    <BundleResource Include="Resources\PA10\error2.png" />
+    <BundleResource Include="Resources\PA10\criteria.png" />
+    <BundleResource Include="Resources\PA11\anatomy.png" />
+    <BundleResource Include="Resources\PA11\error1.png" />
+    <BundleResource Include="Resources\PA11\criteria.png" />
+    <BundleResource Include="Resources\PA12\anatomy.png" />
+    <BundleResource Include="Resources\PA12\error1.png" />
+    <BundleResource Include="Resources\PA12\error2.png" />
+    <BundleResource Include="Resources\PA12\criteria.png" />
+    <BundleResource Include="Resources\PA13\anatomy.png" />
+    <BundleResource Include="Resources\PA13\error1.png" />
+    <BundleResource Include="Resources\PA13\criteria.png" />
+    <BundleResource Include="Resources\PA13\ideal1.png" />
+    <BundleResource Include="Resources\PA13\ideal2.png" />
+    <BundleResource Include="Resources\PA14\anatomy.png" />
+    <BundleResource Include="Resources\PA14\error1.png" />
+    <BundleResource Include="Resources\PA14\criteria.png" />
+    <BundleResource Include="Resources\PA14\ideal1.png" />
+    <BundleResource Include="Resources\PA14\ideal2.png" />
+    <BundleResource Include="Resources\BW1\anatomy.png" />
+    <BundleResource Include="Resources\BW1\error1.png" />
+    <BundleResource Include="Resources\BW1\error2.png" />
+    <BundleResource Include="Resources\BW1\criteria.png" />
+    <BundleResource Include="Resources\BW1\ideal1.png" />
+    <BundleResource Include="Resources\BW1\ideal2.png" />
+    <BundleResource Include="Resources\BW2\anatomy.png" />
+    <BundleResource Include="Resources\BW2\error1.png" />
+    <BundleResource Include="Resources\BW2\criteria.png" />
+    <BundleResource Include="Resources\BW2\ideal1.png" />
+    <BundleResource Include="Resources\BW2\ideal2.png" />
+    <BundleResource Include="Resources\BW3\anatomy.png" />
+    <BundleResource Include="Resources\BW3\error1.png" />
+    <BundleResource Include="Resources\BW3\criteria.png" />
+    <BundleResource Include="Resources\BW3\ideal1.png" />
+    <BundleResource Include="Resources\BW3\ideal2.png" />
+    <BundleResource Include="Resources\BW4\anatomy.png" />
+    <BundleResource Include="Resources\BW4\error1.png" />
+    <BundleResource Include="Resources\BW4\error2.png" />
+    <BundleResource Include="Resources\BW4\criteria.png" />
+    <BundleResource Include="Resources\BW4\ideal1.png" />
+    <BundleResource Include="Resources\BW4\ideal2.png" />
+    <BundleResource Include="Resources\Video\Video1.mp4" />
+    <BundleResource Include="Resources\Video\Video2.mp4" />
+    <BundleResource Include="Resources\Video\Video3.mp4" />
+    <BundleResource Include="Resources\Video\Video4.mp4" />
+    <BundleResource Include="Resources\Video\Video5.mp4" />
+    <BundleResource Include="Resources\Video\Video6.mp4" />
+    <BundleResource Include="Resources\Video\Video7.mp4" />
+    <BundleResource Include="Resources\PA4\ideal1.png" />
+    <BundleResource Include="Resources\PA4\ideal2.png" />
+    <BundleResource Include="Resources\PA5\ideal1.png" />
+    <BundleResource Include="Resources\PA5\ideal2.png" />
+    <BundleResource Include="Resources\PA10\ideal1.png" />
+    <BundleResource Include="Resources\PA10\ideal2.png" />
+    <BundleResource Include="Resources\PA11\ideal1.png" />
+    <BundleResource Include="Resources\PA12\ideal1.png" />
+    <BundleResource Include="Resources\PA12\ideal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="VideoPlayer_CustomRenderer.cs" />
+    <Compile Include="DeviceHelper.cs" />
+    <Compile Include="GestureRecognizers.cs" />
+    <Compile Include="MoviePlaybackSampleViewController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="ITunesArtwork" />
+    <ITunesArtwork Include="ITunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\IAOscreen.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Resources\xLaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreenX.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Home\" />
+    <Folder Include="Resources\PA1\" />
+    <Folder Include="Resources\PA1\" />
+    <Folder Include="Resources\Video\" />
+    <Folder Include="Resources\PA2\" />
+    <Folder Include="Resources\PA3\" />
+    <Folder Include="Resources\PA4\" />
+    <Folder Include="Resources\PA5\" />
+    <Folder Include="Resources\PA6\" />
+    <Folder Include="Resources\PA7\" />
+    <Folder Include="Resources\PA8\" />
+    <Folder Include="Resources\Icon\" />
+    <Folder Include="Resources\PA9\" />
+    <Folder Include="Resources\PA10\" />
+    <Folder Include="Resources\PA11\" />
+    <Folder Include="Resources\PA12\" />
+    <Folder Include="Resources\PA13\" />
+    <Folder Include="Resources\PA14\" />
+    <Folder Include="Resources\BW1\" />
+    <Folder Include="Resources\BW2\" />
+    <Folder Include="Resources\BW3\" />
+    <Folder Include="Resources\BW4\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.2.3.3.175\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.175\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+</Project>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--class Prefix:identifier View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LaunchScreen" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.984313725490196" green="0.27843137254901962" blue="0.94509803921568625" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" id="5" translatesAutoresizingMaskIntoConstraints="NO" image="IAO.splash.png" misplaced="YES">
+                                <rect key="frame" x="226" y="231" width="149" height="138"/>
+                                <constraints>
+                                    <constraint id="100" firstAttribute="width" constant="149"/>
+                                    <constraint id="101" firstAttribute="height" constant="138"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="102" firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="225"/>
+                            <constraint id="103" firstItem="kh9-bI-dsS" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="231"/>
+                            <constraint id="104" firstItem="5" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width"/>
+                            <constraint id="105" firstItem="5" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="hamburger.png" width="14" height="15"/>
+        <image name="contacts.png" width="24" height="24"/>
+        <image name="reminders.png" width="24" height="24"/>
+        <image name="todo.png" width="24" height="24"/>
+        <image name="PA2.png" width="1896" height="1368"/>
+        <image name="PA3.png" width="1368" height="1896"/>
+        <image name="PA4.png" width="1368" height="1896"/>
+        <image name="PA5.png" width="1368" height="1896"/>
+        <image name="PA6.png" width="1896" height="1368"/>
+        <image name="PA7.png" width="1896" height="1368"/>
+        <image name="BW1.png" width="1896" height="1368"/>
+        <image name="BW2.png" width="1896" height="1368"/>
+        <image name="BW3.png" width="1896" height="1368"/>
+        <image name="BW4.png" width="1896" height="1368"/>
+        <image name="PA10.png" width="1368" height="1896"/>
+        <image name="PA11.png" width="1368" height="1896"/>
+        <image name="PA12.png" width="1368" height="1896"/>
+        <image name="PA8.png" width="1896" height="1368"/>
+        <image name="PA9.png" width="1896" height="1368"/>
+        <image name="PA13.png" width="1896" height="1368"/>
+        <image name="PA14.png" width="1896" height="1368"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/anatomy/anatomy1.PNG" width="939" height="542"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/common/error1.PNG" width="1026" height="478"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/common/error2.PNG" width="1018" height="475"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/criteria/criteria1.PNG" width="1046" height="438"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/ideal/ideal1.png" width="460" height="352"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/ideal/ideal2.png" width="460" height="352"/>
+        <image name="PA1.ideal1.png" width="460" height="352"/>
+        <image name="PA1.ideal2.png" width="460" height="352"/>
+        <image name="PA2.ideal1.png" width="460" height="352"/>
+        <image name="PA2.ideal2.png" width="460" height="352"/>
+        <image name="PA3.ideal1.png" width="279" height="365"/>
+        <image name="PA3.ideal2.png" width="279" height="365"/>
+        <image name="Acquisition.png" width="512" height="512"/>
+        <image name="Criteria.png" width="512" height="512"/>
+        <image name="Errors.png" width="512" height="512"/>
+        <image name="Home.png" width="512" height="512"/>
+        <image name="PA1.criteria.png" width="1046" height="438"/>
+        <image name="PA2.criteria.png" width="1044" height="380"/>
+        <image name="PA3.criteria.png" width="1034" height="508"/>
+        <image name="PA1.Anatomy.png" width="939" height="542"/>
+        <image name="PA2.Anatomy.png" width="976" height="557"/>
+        <image name="PA3.Anatomy.png" width="759" height="572"/>
+        <image name="PA1.error1.png" width="1026" height="478"/>
+        <image name="PA2.error1.png" width="1021" height="477"/>
+        <image name="PA1.error2.png" width="1018" height="475"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/PA2.error1.png" width="1021" height="477"/>
+        <image name="PA1.png -- Maxillary Molar Periapical/PA2.error2.png" width="1030" height="485"/>
+        <image name="PA3.error1.png" width="1025" height="480"/>
+        <image name="PA2.error2.png" width="1030" height="485"/>
+        <image name="black.png" width="644" height="514"/>
+        <image name="IAO.splash.png" width="353" height="353"/>
+        <image name="Anatomy.png" width="512" height="512"/>
+        <image name="Home/PA1.png" width="1896" height="1368"/>
+        <image name="Home/PA2.png" width="1896" height="1368"/>
+        <image name="Home/PA3.png" width="1368" height="1896"/>
+        <image name="Home/PA4.png" width="1368" height="1896"/>
+        <image name="Home/PA5.png" width="1368" height="1896"/>
+        <image name="Home/PA6.png" width="1896" height="1368"/>
+        <image name="Home/PA7.png" width="1896" height="1368"/>
+        <image name="Home/PA8.png" width="1896" height="1368"/>
+        <image name="Home/PA9.png" width="1896" height="1368"/>
+        <image name="Home/BW1.png" width="1896" height="1368"/>
+        <image name="Home/BW2.png" width="1896" height="1368"/>
+        <image name="Home/BW3.png" width="1896" height="1368"/>
+        <image name="Home/BW4.png" width="1896" height="1368"/>
+        <image name="Home/PA10.png" width="1368" height="1896"/>
+        <image name="Home/PA11.png" width="1368" height="1896"/>
+        <image name="Home/PA12.png" width="1368" height="1896"/>
+        <image name="Home/PA13.png" width="1896" height="1368"/>
+        <image name="Home/PA14.png" width="1896" height="1368"/>
+        <image name="PA1/ideal1.png" width="460" height="352"/>
+        <image name="PA1/ideal2.png" width="460" height="352"/>
+        <image name="PA1/criteria.png" width="1046" height="438"/>
+        <image name="PA1/error1.png" width="1026" height="478"/>
+        <image name="PA1/error2.png" width="1018" height="475"/>
+        <image name="PA1/anatomy.png" width="939" height="542"/>
+        <image name="PA2/ideal1.png" width="453" height="344"/>
+        <image name="PA2/ideal2.png" width="456" height="344"/>
+        <image name="PA2/anatomy.png" width="976" height="557"/>
+        <image name="PA2/error1.png" width="1021" height="477"/>
+        <image name="PA2/error2.png" width="1030" height="485"/>
+        <image name="PA3/ideal1.png" width="279" height="365"/>
+        <image name="PA3/ideal2.png" width="279" height="365"/>
+        <image name="PA3/criteria.png" width="1034" height="508"/>
+        <image name="PA2/criteria.png" width="1044" height="380"/>
+        <image name="PA3/error1.png" width="1025" height="480"/>
+        <image name="PA4/anatomy.png" width="932" height="452"/>
+        <image name="PA4/criteria.png" width="1015" height="469"/>
+        <image name="PA4/ideal1.png" width="352" height="444"/>
+        <image name="PA4/ideal2.png" width="352" height="444"/>
+        <image name="PA4/error1.png" width="987" height="462"/>
+        <image name="PA4/error2.png" width="987" height="459"/>
+        <image name="PA5/anatomy.png" width="759" height="572"/>
+        <image name="PA5/criteria.png" width="1034" height="508"/>
+        <image name="PA5/error1.png" width="1025" height="480"/>
+        <image name="PA5/ideal1.png" width="279" height="365"/>
+        <image name="PA5/ideal2.png" width="279" height="365"/>
+        <image name="PA3/anatomy.png" width="782" height="500"/>
+        <image name="PA6/anatomy.png" width="976" height="557"/>
+        <image name="PA6/criteria.png" width="1044" height="380"/>
+        <image name="PA6/error1.png" width="1021" height="477"/>
+        <image name="PA6/error2.png" width="1030" height="485"/>
+        <image name="PA6/ideal1.png" width="453" height="344"/>
+        <image name="PA6/ideal2.png" width="456" height="344"/>
+        <image name="PA7/ideal1.png" width="460" height="352"/>
+        <image name="PA7/ideal2.png" width="460" height="352"/>
+        <image name="PA7/anatomy.png" width="939" height="542"/>
+        <image name="PA7/error1.png" width="1026" height="478"/>
+        <image name="PA7/error2.png" width="1018" height="475"/>
+        <image name="PA7/criteria.png" width="1046" height="438"/>
+        <image name="PA8/anatomy.png" width="760" height="564"/>
+        <image name="PA8/error1.png" width="1004" height="467"/>
+        <image name="PA8/criteria.png" width="1043" height="404"/>
+        <image name="PA8/ideal1.png" width="486" height="371"/>
+        <image name="PA8/ideal2.png" width="486" height="371"/>
+        <image name="Icon/Acquisition.png" width="512" height="512"/>
+        <image name="Icon/Anatomy.png" width="512" height="512"/>
+        <image name="Icon/Criteria.png" width="512" height="512"/>
+        <image name="Icon/Errors.png" width="512" height="512"/>
+        <image name="Icon/Home.png" width="512" height="512"/>
+        <image name="PA9/anatomy.png" width="639" height="563"/>
+        <image name="PA9/error1.png" width="1025" height="479"/>
+        <image name="PA9/criteria.png" width="1048" height="384"/>
+        <image name="PA9/ideal1.png" width="476" height="364"/>
+        <image name="PA9/ideal2.png" width="479" height="364"/>
+        <image name="PA10/anatomy.png" width="584" height="535"/>
+        <image name="PA10/error1.png" width="1031" height="481"/>
+        <image name="PA10/error2.png" width="1035" height="482"/>
+        <image name="PA10/criteria.png" width="1041" height="508"/>
+        <image name="PA10/ideal1.png" width="294" height="386"/>
+        <image name="PA10/ideal2.png" width="294" height="386"/>
+        <image name="PA11/anatomy.png" width="967" height="500"/>
+        <image name="PA11/error1.png" width="1009" height="470"/>
+        <image name="PA11/criteria.png" width="1026" height="483"/>
+        <image name="PA11/ideal1.png" width="352" height="450"/>
+        <image name="PA12/anatomy.png" width="584" height="535"/>
+        <image name="PA12/error1.png" width="1031" height="481"/>
+        <image name="PA12/error2.png" width="1035" height="482"/>
+        <image name="PA12/criteria.png" width="1041" height="508"/>
+        <image name="PA12/ideal1.png" width="294" height="386"/>
+        <image name="PA12/ideal2.png" width="294" height="386"/>
+        <image name="PA13/anatomy.png" width="639" height="563"/>
+        <image name="PA13/error1.png" width="1025" height="479"/>
+        <image name="PA13/criteria.png" width="1048" height="384"/>
+        <image name="PA13/ideal1.png" width="476" height="364"/>
+        <image name="PA13/ideal2.png" width="479" height="364"/>
+        <image name="PA14/anatomy.png" width="760" height="564"/>
+        <image name="PA14/error1.png" width="1004" height="467"/>
+        <image name="PA14/criteria.png" width="1043" height="404"/>
+        <image name="PA14/ideal1.png" width="486" height="371"/>
+        <image name="PA14/ideal2.png" width="486" height="371"/>
+        <image name="BW1/anatomy.png" width="742" height="427"/>
+        <image name="BW1/error1.png" width="1003" height="472"/>
+        <image name="BW1/error2.png" width="1010" height="473"/>
+        <image name="BW1/criteria.png" width="1038" height="350"/>
+        <image name="BW1/ideal1.png" width="486" height="371"/>
+        <image name="BW1/ideal2.png" width="486" height="371"/>
+        <image name="BW2/anatomy.png" width="782" height="500"/>
+        <image name="BW2/error1.png" width="1020" height="480"/>
+        <image name="BW2/criteria.png" width="1037" height="320"/>
+        <image name="BW2/ideal1.png" width="486" height="371"/>
+        <image name="BW2/ideal2.png" width="486" height="371"/>
+        <image name="BW3/anatomy.png" width="782" height="500"/>
+        <image name="BW3/error1.png" width="1020" height="480"/>
+        <image name="BW3/criteria.png" width="1037" height="320"/>
+        <image name="BW3/ideal1.png" width="486" height="371"/>
+        <image name="BW3/ideal2.png" width="486" height="371"/>
+        <image name="BW4/anatomy.png" width="742" height="427"/>
+        <image name="BW4/error1.png" width="1003" height="472"/>
+        <image name="BW4/error2.png" width="1010" height="473"/>
+        <image name="BW4/criteria.png" width="1038" height="350"/>
+        <image name="BW4/ideal1.png" width="486" height="371"/>
+        <image name="BW4/ideal2.png" width="486" height="371"/>
+    </resources>
+</document>
